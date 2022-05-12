@@ -1109,6 +1109,7 @@ textarea.input{
 
     .nav__toggle{
         display: flex;
+        z-index: 999;
     }
 
     .main{
