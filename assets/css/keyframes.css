@@ -1,0 +1,300 @@
+/* ==========KEYFRAMES=========== */
+
+/* FRONTEND */
+
+#html{
+    background-color: var(--skin-color);
+    animation: html 3s;
+    width: 100%;
+}
+
+#css{
+    background-color: var(--skin-color);
+    animation: css 3s;
+    width: 75%;
+}
+
+#javascript{
+    background-color: var(--skin-color);
+    animation: javascript 3s;
+    width: 60%;
+}
+
+#sass{
+    background-color: var(--skin-color);
+    animation: sass 3s;
+    width: 60%;
+}
+
+#react{
+    background-color: var(--skin-color);
+    animation: react 3s;
+    width: 20%;
+}
+
+
+/* Frontend Keyframes */
+
+@keyframes html{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 100%;        
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes sass{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes react{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+/* ====================================================== */
+
+
+/* DESIGN */
+
+#photoshop{
+    background-color: var(--skin-color);
+    animation: photoshop 3s;
+    width: 20%;
+}
+
+#illustrator{
+    background-color: var(--skin-color);
+    animation: illustrator 3s;
+    width: 20%;
+}
+
+#figma{
+    background-color: var(--skin-color);
+    animation: figma 3s;
+    width: 20%;
+}
+
+
+
+/* Design Keyframes */
+
+@keyframes photoshop{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes illustrator{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes figma{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+/* ====================================================== */
+
+/* BACKEND */
+
+#mysql{
+    background-color: var(--skin-color);
+    animation: mysql 3s;
+    width: 30%;
+}
+
+#tsql{
+    background-color: var(--skin-color);
+    animation: tsql 3s;
+    width: 20%;
+}
+
+#java{
+    background-color: var(--skin-color);
+    animation: java 3s;
+    width: 20%;
+}
+
+#express{
+    background-color: var(--skin-color);
+    animation: express 3s;
+    width: 10%;
+}
+
+#mongo{
+    background-color: var(--skin-color);
+    animation: mongo 3s;
+    width: 5%;
+}
+
+
+/* BACKEND KEYFRAMES */
+
+@keyframes mongo{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 5%;
+    }
+}
+
+@keyframes express{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 10%;
+    }
+}
+
+@keyframes tsql{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes java{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes mysql{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 30%;
+    }
+}
+
+/* ====================================================== */
+
+/* OTHERS */
+
+#excel{
+    background-color: var(--skin-color);
+    animation: excel 3s;
+    width: 95%;
+}
+
+#access{
+    background-color: var(--skin-color);
+    animation: access 3s;
+    width: 70%;
+}
+
+#python{
+    background-color: var(--skin-color);
+    animation: python 3s;
+    width: 30%;
+}
+
+#word{
+    background-color: var(--skin-color);
+    animation: word 3s;
+    width: 70%;
+}
+
+/* Others Keyframe */
+
+@keyframes excel{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes access{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes python{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 30%;
+    }
+}
+
+@keyframes word{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 70%;
+    }
+}

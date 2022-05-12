@@ -1,0 +1,67 @@
+.profile-container{
+    position:relative;
+    overflow:hidden;
+    height: 500px;
+    background-color:#B18500;
+    border-radius:10px;
+  }
+  
+  .profile-container .img-bar{
+    height:100%;
+    background-image:url("../img/foto3.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:absolute;
+    transition:all 1s;
+    border-radius:5px;
+  }
+  
+  .profile-container .img-bar{
+    width:100%;
+    z-index:6;
+    transition-delay:0s;
+  }
+  
+  
+  
+  .profile-container:hover .img-bar{
+    transform:translatex(-100%);
+  }
+  
+  .profile-container:hover .img-bar{
+    transition-delay:0.6s;
+  }
+  
+  
+  .profile-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100%;
+    padding:0 30px;
+    text-transform:capitalize;
+    font-family: Arial;
+    text-align:center;
+    transform:translateX(100%);
+    transition:all 1.5s;
+    transition-delay:0.3s;
+    color:#fff;
+  }
+  
+  .profile-content p{
+    line-height:1.6;
+    margin:20px 0 30px;
+  }
+  
+  .profile-content .btn{
+    text-decoration:none;
+    padding:10px 20px;
+    color:#000;
+    border:3px solid #444;
+    font-weight:bolder;
+  }
+  
+  .profile-container:hover .profile-content{
+    transform:translateY(0);
+  }
